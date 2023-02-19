@@ -1,0 +1,55 @@
+html {
+  font-size: 1rem;
+}
+
+/* Small devices (smartphones, 576px and up) */
+@media (min-width: 576px) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  html {
+    font-size: 1.3rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  html {
+    font-size: 1.5rem;
+  }
+}
+
+@keyframes levitate {
+  to {
+    transform: translate(0, -13px);
+  }
+}
+#logo {
+  animation-name: levitate;
+  animation-duration: 1.2s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.carousel-caption-text {
+  display: inline-block;
+  padding: 2px 5px;
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.tile{
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.1);
+}
